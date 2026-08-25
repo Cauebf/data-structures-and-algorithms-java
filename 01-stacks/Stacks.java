@@ -27,5 +27,11 @@ public class Stacks {
         stack.pop();
 
         System.out.println(stack); // [A, B]
+
+        // Uses of stacks
+        //      1. Undo/redo features in text editors
+        //      2. moving back/forward through browser history
+        //      3. backtracking algorithms (maze, file directories)
+        //      4. calling functions (call stack)
     }
 }
