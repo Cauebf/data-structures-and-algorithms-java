@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/06-linkedlists-vs-dynamicarrays" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/07-linear-search" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/08-binary-search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/09-interpolation-search" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
