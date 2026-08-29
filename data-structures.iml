@@ -16,6 +16,7 @@
       <sourceFolder url="file://$MODULE_DIR$/11-selection-sort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/12-insertion-sort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/13-recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14-merge-sort" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
