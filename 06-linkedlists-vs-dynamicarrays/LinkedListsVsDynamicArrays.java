@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class Main {
+public class LinkedListsVsDynamicArrays {
 
     public static void main(String[] args) {
 
