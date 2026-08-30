@@ -22,6 +22,7 @@
       <sourceFolder url="file://$MODULE_DIR$/17-adjacency-matrix" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/18-adjacency-list" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/19-depth-first-search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20-breadth-first-search" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
