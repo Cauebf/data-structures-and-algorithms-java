@@ -1,8 +1,8 @@
-public class Node {
+public class AdjacencyListNode {
 
     char data; // data held by this node
 
-    Node(char data) {
+    AdjacencyListNode(char data) {
         this.data = data;
     }
 }
