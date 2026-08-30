@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/14-merge-sort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/15-quick-sort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/16-hash-tables" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17-adjacency-matrix" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
