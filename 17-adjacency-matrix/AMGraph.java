@@ -1,16 +1,16 @@
 import java.util.ArrayList;
 
-public class AdjacencyMatrixGraph {
+public class AMGraph {
 
-    ArrayList<AdjacencyMatrixNode> nodes;
+    ArrayList<AMNode> nodes;
     int[][] matrix; // 2d array representing the adjacency matrix
 
-    AdjacencyMatrixGraph(int size) {
+    AMGraph(int size) {
         nodes = new ArrayList<>();
         matrix = new int[size][size]; // size x size matrix, all values start at 0
     }
 
-    public void addNode(AdjacencyMatrixNode node) {
+    public void addNode(AMNode node) {
         nodes.add(node);
     }
 
@@ -30,7 +30,7 @@ public class AdjacencyMatrixGraph {
 
         // print column headers (node data)
         System.out.print("  ");
-        for (AdjacencyMatrixNode node : nodes) {
+        for (AMNode node : nodes) {
             System.out.print(node.data + " ");
         }
         System.out.println();

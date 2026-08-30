@@ -9,13 +9,13 @@ public class AdjacencyMatrix {
         // Runtime complexity to check an Edge: O(1)
         // Space complexity: O(V^2)
 
-        AdjacencyMatrixGraph graph = new AdjacencyMatrixGraph(5);
+        AMGraph graph = new AMGraph(5);
 
-        graph.addNode(new AdjacencyMatrixNode('A'));
-        graph.addNode(new AdjacencyMatrixNode('B'));
-        graph.addNode(new AdjacencyMatrixNode('C'));
-        graph.addNode(new AdjacencyMatrixNode('D'));
-        graph.addNode(new AdjacencyMatrixNode('E'));
+        graph.addNode(new AMNode('A'));
+        graph.addNode(new AMNode('B'));
+        graph.addNode(new AMNode('C'));
+        graph.addNode(new AMNode('D'));
+        graph.addNode(new AMNode('E'));
 
         // add edges between nodes (by index)
         graph.addEdge(0, 1); // A -> B

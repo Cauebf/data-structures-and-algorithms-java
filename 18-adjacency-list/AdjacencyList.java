@@ -9,25 +9,25 @@ public class AdjacencyList {
         // Runtime complexity to check an Edge: O(V)
         // Space complexity: O(V + E)
 
-        AdjacencyListGraph adjacencyListGraph = new AdjacencyListGraph();
+        ALGraph graph = new ALGraph();
 
-        adjacencyListGraph.addNode(new AdjacencyListNode('A'));
-        adjacencyListGraph.addNode(new AdjacencyListNode('B'));
-        adjacencyListGraph.addNode(new AdjacencyListNode('C'));
-        adjacencyListGraph.addNode(new AdjacencyListNode('D'));
-        adjacencyListGraph.addNode(new AdjacencyListNode('E'));
+        graph.addNode(new ALNode('A'));
+        graph.addNode(new ALNode('B'));
+        graph.addNode(new ALNode('C'));
+        graph.addNode(new ALNode('D'));
+        graph.addNode(new ALNode('E'));
 
         // add edges between nodes (by index)
-        adjacencyListGraph.addEdge(0, 1); // A -> B
-        adjacencyListGraph.addEdge(1, 2); // B -> C
-        adjacencyListGraph.addEdge(1, 4); // B -> E
-        adjacencyListGraph.addEdge(2, 3); // C -> D
-        adjacencyListGraph.addEdge(2, 4); // C -> E
-        adjacencyListGraph.addEdge(4, 0); // E -> A
-        adjacencyListGraph.addEdge(4, 2); // E -> C
+        graph.addEdge(0, 1); // A -> B
+        graph.addEdge(1, 2); // B -> C
+        graph.addEdge(1, 4); // B -> E
+        graph.addEdge(2, 3); // C -> D
+        graph.addEdge(2, 4); // C -> E
+        graph.addEdge(4, 0); // E -> A
+        graph.addEdge(4, 2); // E -> C
 
-        adjacencyListGraph.print();
+        graph.print();
 
-        System.out.println(adjacencyListGraph.checkEdge(0, 1)); // check if there's an edge from A to B
+        System.out.println(graph.checkEdge(0, 1)); // check if there's an edge from A to B
     }
 }

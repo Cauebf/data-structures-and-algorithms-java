@@ -1,8 +1,8 @@
-public class AdjacencyMatrixNode {
+public class AMNode {
 
     char data; // data held by this node
 
-    AdjacencyMatrixNode(char data) {
+    AMNode(char data) {
         this.data = data;
     }
 }
